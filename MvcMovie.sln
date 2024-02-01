@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{ED915BD0-56AF-43C2-B4E7-8D2D0DA99036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED915BD0-56AF-43C2-B4E7-8D2D0DA99036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED915BD0-56AF-43C2-B4E7-8D2D0DA99036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED915BD0-56AF-43C2-B4E7-8D2D0DA99036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED915BD0-56AF-43C2-B4E7-8D2D0DA99036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69ACF645-53BC-4AEB-BF59-B50CD4C1D7C3}
+	EndGlobalSection
+EndGlobal
