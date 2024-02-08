@@ -60,3 +60,22 @@ using System.ComponentModel.DataAnnotations.Schema;
 Have slight changes and made them work at the end.
 Eveything is linked to the program.cs file so again made the changes there and got the
 correct output
+
+Step-7
+1100
+2024-02-01
+Updated the Index method found inside Controllers/MoviesController.cs with the code
+The query is only defined at this point, it has not been run against the database
+query execution is deferred. That means that the evaluation of an expression is delayed
+method is run on the database, not in the c# code shown above. The case sensitivity on the query depends on the database and the collation. On SQL Serve
+
+step-8
+ added a new field to the Movie class, 
+ you need to update the property binding list so this new property
+ Updated the view templates in order to display, create, 
+ and edit the new Rating property in the browser
+
+ step-9
+ The validation support provided by MVC and Entity Framework Core Code First is a good example
+ RAn the app and navigate to the Movies controller.
+ everething works
