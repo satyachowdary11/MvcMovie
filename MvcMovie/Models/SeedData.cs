@@ -22,42 +22,42 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "Bahubali",
-                    ReleaseDate = DateTime.Parse("2015-12-15"),
-                    Genre = "Ancient",
-                    Rating = "9.0",
+                    Title = "RRR",
+                    ReleaseDate = DateTime.Parse("2022-06-17"),
+                    Genre = "Action",
+                    Rating = "8.0",
                     Price = 12M
                 },
                 new Movie
                 {
-                    Title = "Naruto",
-                    ReleaseDate = DateTime.Parse("2015-06-22"),
-                    Genre = "Anime",
-                    Rating = "9.5",
-                    Price = 10M
+                    Title = "Simhadri",
+                    ReleaseDate = DateTime.Parse("2010-07-23"),
+                    Genre = "family",
+                    Rating = "8.5",
+                    Price = 18M
                 },
                 new Movie
                 {
-                    Title = "One Piece",
-                    ReleaseDate = DateTime.Parse("2003-03-12"),
-                    Genre = "Anime",
-                    Rating = "9.8",
-                    Price = 17M
+                    Title = "Bahubali",
+                    ReleaseDate = DateTime.Parse("2016-04-14"),
+                    Genre = "Action and Adventure",
+                    Rating = "8.8",
+                    Price = 15M
                 },
                 new Movie
                 {
-                    Title = "Annabelle",
-                    ReleaseDate = DateTime.Parse("2013-03-04"),
-                    Genre = "Horror",
+                    Title = "Wolf of wall street",
+                    ReleaseDate = DateTime.Parse("2016-05-07"),
+                    Genre = "Adventure",
                     Rating = "9",
-                    Price = 8.79M
+                    Price = 20.8M
                 }
                 new Movie
                 {
-                    Title = "Mirchi",
-                    ReleaseDate = DateTime.Parse("2015-06-17"),
+                    Title = "Happy",
+                    ReleaseDate = DateTime.Parse("2012-06-17"),
                     Genre = "Family Entertainer",
-                    Rating = "8.5",
+                    Rating = "7.5",
                     Price = 8.99M
                 }
             );
