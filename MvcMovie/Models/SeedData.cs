@@ -17,37 +17,48 @@ public static class SeedData
             // Look for any movies.
             if (context.Movie.Any())
             {
-               return;   // DB has been seeded
+                return;   // DB has been seeded
             }
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
-                    Price = 7.99M
+                    Title = "Bahubali",
+                    ReleaseDate = DateTime.Parse("2015-12-15"),
+                    Genre = "Ancient",
+                    Rating = "9.0",
+                    Price = 12M
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
-                    Genre = "Comedy",
+                    Title = "Naruto",
+                    ReleaseDate = DateTime.Parse("2015-06-22"),
+                    Genre = "Anime",
+                    Rating = "9.5",
+                    Price = 10M
+                },
+                new Movie
+                {
+                    Title = "One Piece",
+                    ReleaseDate = DateTime.Parse("2003-03-12"),
+                    Genre = "Anime",
+                    Rating = "9.8",
+                    Price = 17M
+                },
+                new Movie
+                {
+                    Title = "Annabelle",
+                    ReleaseDate = DateTime.Parse("2013-03-04"),
+                    Genre = "Horror",
+                    Rating = "9",
+                    Price = 8.79M
+                }
+                new Movie
+                {
+                    Title = "Mirchi",
+                    ReleaseDate = DateTime.Parse("2015-06-17"),
+                    Genre = "Family Entertainer",
+                    Rating = "8.5",
                     Price = 8.99M
-                },
-                new Movie
-                {
-                    Title = "Jalsa",
-                    ReleaseDate = DateTime.Parse("2015-2-23"),
-                    Genre = "Comedy",
-                    Price = 9.99M
-                },
-               
-                new Movie
-                {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
-                    Price = 3.99M
                 }
             );
             context.SaveChanges();
