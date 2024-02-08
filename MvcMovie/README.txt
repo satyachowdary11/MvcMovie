@@ -48,7 +48,7 @@ in dbo.movie i checked the database
 Created a new class named SeedData in the Models folder. Replaced the generated code
 Deleted all the records in the database
 tested the app everything looks good
-Replace the contents of Program.cs with the given code
+Replaced  the contents of Program.cs with the given code
 
 step-6
 
@@ -70,12 +70,26 @@ query execution is deferred. That means that the evaluation of an expression is 
 method is run on the database, not in the c# code shown above. The case sensitivity on the query depends on the database and the collation. On SQL Serve
 
 step-8
- added a new field to the Movie class, 
- you need to update the property binding list so this new property
- Updated the view templates in order to display, create, 
- and edit the new Rating property in the browser
+adding a new field to the Movie class, you need to update the property binding list so this new property
+added a rating property,now we need to update the property binding list so this property will be included
+updated the view templates now the new options display
+updated the remaining templetes
+DataBase is updated to include the new field.
+in the PowerShell i ran two commands to add migration and to update database
+ran the app now i can perform the added tasks
 
- step-9
- The validation support provided by MVC and Entity Framework Core Code First is a good example
- RAn the app and navigate to the Movies controller.
- everething works
+Step-9
+adding validation
+The validation support provided by MVC and Entity Framework Core Code First is a good example
+there are build in attributes that are applied declaratively to a class or property
+Updated the movie class so we can use the built in validation attributes we can see every attribute has specif conditions and value types
+validated error UI, the controller and views we created has autometically picket uo the validation rules.
+after the methods check the has any validation errors, if there are no errors the method saves the new movies in the database. 
+everething works
+
+Step-10
+Examine the Details and Delete methods
+we can see that the mvc scaffolding engine created the action method
+after examining delete and deleteconfirmed tje HTTP GET Delete method doen't delete the specified movie it returns to where we can submit the deletion
+operations like edit,create, or any other operation that changes will open up a security hole.
+so we need two delete methods one for get and another for post they both have same parameters
